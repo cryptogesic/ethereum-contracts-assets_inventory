@@ -1,6 +1,6 @@
 const {accounts, web3} = require('hardhat');
-const {createFixtureLoader} = require('@animoca/ethereum-contracts-core_library/test/utils/fixture');
-const {expectEventWithParamsOverride} = require('@animoca/ethereum-contracts-core_library/test/utils/events');
+const {createFixtureLoader} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/fixture');
+const {expectEventWithParamsOverride} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/events');
 const {BN, expectEvent, expectRevert} = require('@openzeppelin/test-helpers');
 const {
   makeFungibleCollectionId,
@@ -8,8 +8,8 @@ const {
   makeNonFungibleTokenId,
   isNonFungibleToken,
   isFungible,
-} = require('@animoca/blockchain-inventory_metadata').inventoryIds;
-const {Zero, One, ZeroAddress} = require('@animoca/ethereum-contracts-core_library').constants;
+} = require('@cryptogesic/blockchain-inventory_metadata').inventoryIds;
+const {Zero, One, ZeroAddress} = require('@cryptogesic/ethereum-contracts-core_library').constants;
 
 function shouldBehaveLikeERC1155Burnable({nfMaskLength, contractName, revertMessages, eventParamsOverrides, interfaces, methods, deploy, mint}) {
   const [deployer, minter, owner, operator, approved, other] = accounts;

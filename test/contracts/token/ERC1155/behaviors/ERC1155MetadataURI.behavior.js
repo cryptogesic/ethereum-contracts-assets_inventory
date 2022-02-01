@@ -1,11 +1,11 @@
 const {accounts, web3} = require('hardhat');
-const {createFixtureLoader} = require('@animoca/ethereum-contracts-core_library/test/utils/fixture');
+const {createFixtureLoader} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/fixture');
 const {
   makeFungibleCollectionId,
   makeNonFungibleCollectionId,
   makeNonFungibleTokenId,
-} = require('@animoca/blockchain-inventory_metadata').inventoryIds;
-const {behaviors} = require('@animoca/ethereum-contracts-core_library');
+} = require('@cryptogesic/blockchain-inventory_metadata').inventoryIds;
+const {behaviors} = require('@cryptogesic/ethereum-contracts-core_library');
 const interfaces = require('../../../../../src/interfaces/ERC165/ERC1155');
 
 function shouldBehaveLikeERC1155MetadataURI({nfMaskLength, deploy}) {

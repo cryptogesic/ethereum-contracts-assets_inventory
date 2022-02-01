@@ -6,7 +6,7 @@ import "../../../token/ERC1155721/ERC1155721InventoryBurnable.sol";
 import "../../../token/ERC1155721/IERC1155721InventoryMintable.sol";
 import "../../../token/ERC1155/IERC1155InventoryCreator.sol";
 import "../../../metadata/BaseMetadataURI.sol";
-import "@animoca/ethereum-contracts-core_library/contracts/access/MinterRole.sol";
+import "@cryptogesic/ethereum-contracts-core_library/contracts/access/MinterRole.sol";
 
 contract ERC1155721InventoryBurnableMock is
     ERC1155721InventoryBurnable,

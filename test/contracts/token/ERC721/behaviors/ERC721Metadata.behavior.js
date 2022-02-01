@@ -1,9 +1,9 @@
 const {accounts, web3} = require('hardhat');
-const {createFixtureLoader} = require('@animoca/ethereum-contracts-core_library/test/utils/fixture');
+const {createFixtureLoader} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/fixture');
 const {expectRevert} = require('@openzeppelin/test-helpers');
-const {makeNonFungibleTokenId} = require('@animoca/blockchain-inventory_metadata').inventoryIds;
+const {makeNonFungibleTokenId} = require('@cryptogesic/blockchain-inventory_metadata').inventoryIds;
 
-const {behaviors} = require('@animoca/ethereum-contracts-core_library');
+const {behaviors} = require('@cryptogesic/ethereum-contracts-core_library');
 const interfaces = require('../../../../../src/interfaces/ERC165/ERC721');
 
 function shouldBehaveLikeERC721Metadata({nfMaskLength, name, symbol, revertMessages, deploy, mint}) {

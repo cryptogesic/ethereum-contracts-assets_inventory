@@ -1,11 +1,11 @@
 const {accounts, web3} = require('hardhat');
-const {createFixtureLoader} = require('@animoca/ethereum-contracts-core_library/test/utils/fixture');
+const {createFixtureLoader} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/fixture');
 const {
   makeFungibleCollectionId,
   makeNonFungibleCollectionId,
   makeNonFungibleTokenId,
-} = require('@animoca/blockchain-inventory_metadata').inventoryIds;
-const {ZeroAddress} = require('@animoca/ethereum-contracts-core_library').constants;
+} = require('@cryptogesic/blockchain-inventory_metadata').inventoryIds;
+const {ZeroAddress} = require('@cryptogesic/ethereum-contracts-core_library').constants;
 const {expectEvent, expectRevert} = require('@openzeppelin/test-helpers');
 
 function shouldBehaveLikeERC1155InventoryCreator({nfMaskLength, contractName, revertMessages, methods, deploy, mint}) {

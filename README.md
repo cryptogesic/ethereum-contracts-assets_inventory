@@ -20,7 +20,7 @@ This project serves as a base dependency for Solidity-based assets inventory con
 Install as a module dependency in your host NodeJS project:
 
 ```bash
-$ npm install --save @animoca/ethereum-contracts-assets_inventory
+$ npm install --save @cryptogesic/ethereum-contracts-assets_inventory
 ```
 
 
@@ -31,7 +31,7 @@ $ npm install --save @animoca/ethereum-contracts-assets_inventory
 Import dependency contracts into your Solidity contracts and derive as needed:
 
 ```solidity
-import "@animoca/ethereum-contracts-assets_inventory/contracts/{{Contract Group}}/{{Contract}}.sol"
+import "@cryptogesic/ethereum-contracts-assets_inventory/contracts/{{Contract Group}}/{{Contract}}.sol"
 ```
 
 
@@ -40,7 +40,7 @@ import "@animoca/ethereum-contracts-assets_inventory/contracts/{{Contract Group}
 Require the NodeJS module dependency in your test and migration scripts as needed:
 
 ```javascript
-const { constants, interfaces } = require('@animoca/ethereum-contracts-assets_inventory');
+const { constants, interfaces } = require('@cryptogesic/ethereum-contracts-assets_inventory');
 ```
 
 

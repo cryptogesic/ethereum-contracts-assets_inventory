@@ -3,8 +3,8 @@
 pragma solidity 0.6.8;
 
 import "@openzeppelin/contracts/introspection/ERC165.sol";
-import "@animoca/ethereum-contracts-core_library/contracts/utils/types/UInt256Extract.sol";
-import "@animoca/ethereum-contracts-core_library/contracts/algo/EnumMap.sol";
+import "@cryptogesic/ethereum-contracts-core_library/contracts/utils/types/UInt256Extract.sol";
+import "@cryptogesic/ethereum-contracts-core_library/contracts/algo/EnumMap.sol";
 import "./../token/ERC1155/IERC1155Inventory.sol";
 import "./ICoreMetadata.sol";
 import "./IInventoryMetadata.sol";

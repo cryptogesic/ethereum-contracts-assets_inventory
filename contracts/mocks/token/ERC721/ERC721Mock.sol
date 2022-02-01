@@ -3,7 +3,7 @@
 pragma solidity 0.6.8;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@animoca/ethereum-contracts-core_library/contracts/access/MinterRole.sol";
+import "@cryptogesic/ethereum-contracts-core_library/contracts/access/MinterRole.sol";
 
 contract ERC721Mock is ERC721, MinterRole {
     constructor() public ERC721("ERC721Mock", "E721") {}

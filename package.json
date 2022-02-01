@@ -1,10 +1,10 @@
 {
-  "name": "@animoca/ethereum-contracts-assets_inventory",
+  "name": "@cryptogesic/ethereum-contracts-assets_inventory",
   "version": "7.1.0",
   "description": "Solidity assets contracts managing fungible and non-fungible tokens",
   "repository": {
     "type": "git",
-    "url": "git@github.com:animocabrands/ethereum-contracts-assets_inventory.git"
+    "url": "git@github.com:cryptogesicbrands/ethereum-contracts-assets_inventory.git"
   },
   "author": "Animoca Brands",
   "license": "MIT",
@@ -17,8 +17,8 @@
     "inventory"
   ],
   "devDependencies": {
-    "@animoca/blockchain-inventory_metadata": "^0.1.0",
-    "@animoca/ethereum-contracts-core_library": "=4.0.3",
+    "@cryptogesic/blockchain-inventory_metadata": "^0.1.0",
+    "@cryptogesic/ethereum-contracts-core_library": "=4.0.3",
     "bits.js": "^0.1.1",
     "hardhat": "^2.0.8"
   },

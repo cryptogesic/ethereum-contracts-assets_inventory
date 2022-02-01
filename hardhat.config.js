@@ -1,4 +1,4 @@
-require('@animoca/ethereum-contracts-core_library/hardhat-plugins');
+require('@cryptogesic/ethereum-contracts-core_library/hardhat-plugins');
 
 module.exports = {
   paths: {

@@ -1,9 +1,9 @@
 const {artifacts, accounts, web3} = require('hardhat');
-const {createFixtureLoader} = require('@animoca/ethereum-contracts-core_library/test/utils/fixture');
-const {expectEventWithParamsOverride} = require('@animoca/ethereum-contracts-core_library/test/utils/events');
+const {createFixtureLoader} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/fixture');
+const {expectEventWithParamsOverride} = require('@cryptogesic/ethereum-contracts-core_library/test/utils/events');
 const {BN, expectEvent, expectRevert} = require('@openzeppelin/test-helpers');
 const interfaces1155 = require('../../../../../src/interfaces/ERC165/ERC1155');
-const {behaviors, constants, interfaces: interfaces165} = require('@animoca/ethereum-contracts-core_library');
+const {behaviors, constants, interfaces: interfaces165} = require('@cryptogesic/ethereum-contracts-core_library');
 const {ZeroAddress} = constants;
 
 const ReceiverType = require('../../ReceiverType');
@@ -14,8 +14,8 @@ const {
   makeFungibleCollectionId,
   makeNonFungibleCollectionId,
   makeNonFungibleTokenId,
-} = require('@animoca/blockchain-inventory_metadata').inventoryIds;
-const {Zero, One} = require('@animoca/ethereum-contracts-core_library/src/constants');
+} = require('@cryptogesic/blockchain-inventory_metadata').inventoryIds;
+const {Zero, One} = require('@cryptogesic/ethereum-contracts-core_library/src/constants');
 
 const ERC1155TokenReceiverMock = artifacts.require('ERC1155TokenReceiverMock');
 const ERC721ReceiverMock = artifacts.require('ERC721ReceiverMock');

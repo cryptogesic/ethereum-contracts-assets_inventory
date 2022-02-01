@@ -3,7 +3,7 @@
 pragma solidity 0.6.8;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@animoca/ethereum-contracts-core_library/contracts/utils/types/UInt256ToDecimalString.sol";
+import "@cryptogesic/ethereum-contracts-core_library/contracts/utils/types/UInt256ToDecimalString.sol";
 
 contract BaseMetadataURI is Ownable {
     using UInt256ToDecimalString for uint256;

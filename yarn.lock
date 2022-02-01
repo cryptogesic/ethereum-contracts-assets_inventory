@@ -2,16 +2,16 @@
 # yarn lockfile v1
 
 
-"@animoca/blockchain-inventory_metadata@^0.1.0":
+"@cryptogesic/blockchain-inventory_metadata@^0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@animoca/blockchain-inventory_metadata/-/blockchain-inventory_metadata-0.1.0.tgz#fddcc64e8af3ecb4246160a4547e14db7bec629f"
+  resolved "https://registry.yarnpkg.com/@cryptogesic/blockchain-inventory_metadata/-/blockchain-inventory_metadata-0.1.0.tgz#fddcc64e8af3ecb4246160a4547e14db7bec629f"
   integrity sha512-dSaTxsMv9uZlwqfFwEwwKFBPaBYbOdklNm/TgUEJ8AvHgMLtvgJdBabjTbFDmtxREVCm4l2Zu6G7UUO3/izeew==
   dependencies:
     big-integer "^1.6.48"
 
-"@animoca/ethereum-contracts-core_library@=4.0.3":
+"@cryptogesic/ethereum-contracts-core_library@=4.0.3":
   version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@animoca/ethereum-contracts-core_library/-/ethereum-contracts-core_library-4.0.3.tgz#cabcc655416ffa3cd5cfeec65c5597883bdac60e"
+  resolved "https://registry.yarnpkg.com/@cryptogesic/ethereum-contracts-core_library/-/ethereum-contracts-core_library-4.0.3.tgz#cabcc655416ffa3cd5cfeec65c5597883bdac60e"
   integrity sha512-vduIyAw0/dAolQhF8SacKwX+zmD+CEaRZlVuWyRl663C9GCIgz3h87q+MtFOy+kZSxtUtugFIA1cN8Z6VL/DFg==
   dependencies:
     "@nomiclabs/hardhat-truffle5" "^2.0.0"

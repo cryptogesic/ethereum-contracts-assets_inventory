@@ -1,1 +1,1 @@
-node_modules/@animoca/ethereum-contracts-core_library/.prettierrc.js
+node_modules/@cryptogesic/ethereum-contracts-core_library/.prettierrc.js
